@@ -3,7 +3,7 @@
     place-items: center;
     width: 200px;
     height: 40px;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     background-color: white;
     border-radius: 20px;
     transition: transforms 0.1s;
