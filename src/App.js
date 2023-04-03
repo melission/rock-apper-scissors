@@ -7,7 +7,7 @@ import { Profile } from "./components/Profile";
 import { User } from "./components/User";
 import { Choice } from "./components/Choice";
 import { Computer } from "./components/Computer";
-import { Score } from "./components/Score";
+// import { Score } from "./components/Score";
 import { Message } from "./components/Message";
 import { Reset} from "./components/Reset";
 
@@ -87,7 +87,7 @@ function App() {
               choiceIcon={scissors}
             />
           </User>
-          <Score score={userScore} />
+          {/* <Score score={userScore} /> */}
         </Profile>
         <Message {...game} />
         <Profile>
@@ -98,7 +98,7 @@ function App() {
             scissorsIcon={scissors}
             trophyIcon={trophy}
           />
-          <Score score={pcScore} />
+          {/* <Score score={pcScore} /> */}
         </Profile>
       </Playground>
       <Reset {...game} onClick={reset} />
