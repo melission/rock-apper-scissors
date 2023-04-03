@@ -12,7 +12,7 @@ export const Computer = ({
 }) => {
     return(    
         <div className="computer-card">
-        <h1>Computer</h1>
+        <h1>Computer's score: {pcScore}</h1>
         {pcScore < settings.winTarget ? (
             userSelection === '' ? (
                 <h3 className="waiting-message">{settings.waitingMessage}</h3>
