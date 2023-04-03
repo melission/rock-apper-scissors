@@ -3,7 +3,14 @@
 .message-box {
     display: grid;
     place-items: center;
+    margin-bottom: 20px;
     /* padding: 20px; */
     height: 50px;
     /* border: 1px solid blue; */
+}
+
+@media only screen and (min-width: 701px) {
+    .message-box {
+        height: 220px;
+    }
 }

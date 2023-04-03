@@ -7,7 +7,7 @@ import { Profile } from "./components/Profile";
 import { User } from "./components/User";
 import { Choice } from "./components/Choice";
 import { Computer } from "./components/Computer";
-// import { Score } from "./components/Score";
+import { Score } from "./components/Score";
 import { Message } from "./components/Message";
 import { Reset} from "./components/Reset";
 
